@@ -1,8 +1,8 @@
 {
-    "name": "TSYB13/laravel-fleet-taxi-yandex",
+    "name": "tsyb13/laravel-fleet-taxi-yandex",
     "authors": [
         {
-            "name": "TSYB13",
+            "name": "tsyb13",
             "email": "tehnoNEWproject@yandex.ru"
         }
     ],
@@ -21,10 +21,10 @@
     "extra": {
         "laravel":{
             "providers": [
-                "TSYB13\\FleetTaxiYandex\\FleetTaxiYandexServiceProvider"
+                "Vavprog\\FleetTaxiYandex\\FleetTaxiYandexServiceProvider"
             ],
             "aliases": {
-                "FleetTaxiYandex": "TSYB13\\FleetTaxiYandex\\Facades\\FleetTaxiYandex"
+                "FleetTaxiYandex": "Vavprog\\FleetTaxiYandex\\Facades\\FleetTaxiYandex"
             }
         }
     }
