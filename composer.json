@@ -1,9 +1,9 @@
 {
-    "name": "vavprog/laravel-fleet-taxi-yandex",
+    "name": "TSYB13/laravel-fleet-taxi-yandex",
     "authors": [
         {
-            "name": "vavprog",
-            "email": "vavprog@gmail.com"
+            "name": "TSYB13",
+            "email": "tehnoNEWproject@yandex.ru"
         }
     ],
     "minimum-stability": "dev",
@@ -21,10 +21,10 @@
     "extra": {
         "laravel":{
             "providers": [
-                "Vavprog\\FleetTaxiYandex\\FleetTaxiYandexServiceProvider"
+                "TSYB13\\FleetTaxiYandex\\FleetTaxiYandexServiceProvider"
             ],
             "aliases": {
-                "FleetTaxiYandex": "Vavprog\\FleetTaxiYandex\\Facades\\FleetTaxiYandex"
+                "FleetTaxiYandex": "TSYB13\\FleetTaxiYandex\\Facades\\FleetTaxiYandex"
             }
         }
     }
